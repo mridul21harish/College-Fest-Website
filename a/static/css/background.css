@@ -1,5 +1,5 @@
 html {
-    height:350vw;
+    height:350vh;
     overflow-y: hidden;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -12,16 +12,15 @@ html {
 }
 
 body {
-    height: 350vw;
+    height: 350vh;
     overflow-y: hidden;
     margin: 0%;
     overflow-y: hidden;
 }
 
 canvas {
-    height: 500vw;
+    height: 500vh;
     overflow-y: hidden;
     position: absolute;
 	width: 100vw;
-	z-index: 2;
 }
