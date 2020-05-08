@@ -109,7 +109,7 @@ body{
 	font-family: Alternity;
 	font-size: 1.8vw;
 	width: 85vw;
-	z-index: 3;
+	z-index: 5;
 }
 
 ul{
@@ -279,6 +279,18 @@ li a:hover{
     font-family: Footlight MT Light;
     font-size: 3vw;
     text-align: justify;
+}
+
+#demo{
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 30%;
+    top: 35%;
+    left: 30%;
+    font-family: Stencil;
+    padding:10%;
+    z-index: 3;
 }
 
 .btm{
