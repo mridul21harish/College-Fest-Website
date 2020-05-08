@@ -107,7 +107,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
 	font-family: Alternity;
-	font-size: 125%;
+	font-size: 3.5vh;
 	width: 85vw;
 	z-index: 3;
 }
