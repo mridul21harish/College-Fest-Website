@@ -77,10 +77,82 @@
 			</ul>
 		</div>
 
+		<div class="hero1">
+			<img class="h1-img" src="{% static 'images/hero1.png' %}">
+		</div>
+  
+		<div class="hero2">
+			<img class="h2-img" src="{% static 'images/hero2.png' %}">
+		</div>
+  
+		<div class="hero3">
+			<img class="h3-img" src="{% static 'images/hero3.png' %}">
+		</div>
+  
+		<div class="hero4">
+			<img class="h4-img" src="{% static 'images/hero4.png' %}">
+		</div>
+  
+		<div class="bgh">
+			<img class="bgh1-img" src="{% static 'images/10.png' %}">
+		</div>
+  
+		<div class="bgh2">
+			<img class="bgh2-img" src="{% static 'images/3.png' %}">
+		</div>
+
+		<div class="image2">
+			<img class="img2" src="{% static 'images/bg3.png' %}">
+		</div>
+
+		<div class="bg100">
+			<img class="bg1001" src="{% static 'images/bg100.png' %}">
+		</div>
+
+		<div class="aboutus">
+			<p class="heading">Description</p>
+		</div>
+
+		<div class="paradiv">
+			<p class="para">
+				<br><br>The web application that will be implemented is the registration of a user in our cultural fest 
+				"SHADOW" and also selection of the events of his/ her choice and add them to a cart and generate 
+				a pass.<br>Firstly, the user will have to register themselves in the "Register" webpage by providing
+				their personal information after which he/ she can select the events from the "Events" webpage and 
+				add them to a cart, where they will recieve the sub total. <br><br>The relations or tables used for 
+				storing the user input and the cost of the events will be as follows: <br><br>Personal information: 
+				(First Name, Last name, Gender, Email ID, Password, College Name, Phone Number)<br>Events Selected: 
+				(Email ID, Event ID)<br>All Events: (Event ID, Event Name, Event Cost, Event Catagory)
+			</p>
+		</div>
+
 		<script src="{% static 'js/background.js' %}"></script>
+
+		<div class="btm">
+			<img class="btm_img" src="{% static 'images/btm.png' %}">
+		</div>
+
+		<p class="bottom">
+			<a href="index">HOME</a><br><br>
+			<a href="accomodation">ACCOMMODATION</a><br><br>
+			<a href="register">REGISTER</a><br><br>
+			<a href="events">EVENTS</a><br><br>
+			<a href="sponsors">SPONSORS</a><br>
+		</p>
+
+		<div class="div-soc">
+			<p class="social">CONNECT WITH : </p>
+		</div>
+
+		<a href="http://www.facebook.com" class="fa fa-facebook"></a>
+		<a href="http://www.twitter.com" class="fa fa-twitter"></a>
+		<a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
+		<a href="http://www.youtube.com" class="fa fa-youtube"></a>
+		<a href="http://www.instagram.com" class="fa fa-instagram"></a>
 		
 		<p id="demo"></p>
 		<a href="#" id="scroll" style="display: none;"><span></span></a>
+
 		<script>
 		$(document).ready(function(){
 			$(window).scroll(function(){
