@@ -1,27 +1,27 @@
 html {
-  height:350%;
-  overflow-y: hidden;
-	overflow-x: hidden;
-	overflow-y: scroll;
-  background: #020202;
+    height:350vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: #020202;
 }
 
 ::-webkit-scrollbar{
-  width: 0px;
-  background: transparent;
+    width: 0px;
+    background: transparent;
 }
 
 body {
-  height: 350%;
-  overflow-y: hidden;
-  margin: 0%;
-  height: 100%;
-  overflow-y: hidden;
+    height: 350vw;
+    overflow-y: hidden;
+    margin: 0%;
+    overflow-y: hidden;
 }
 
 canvas {
-  height: 500%;
-  overflow-y: hidden;
-  position: absolute;
-  width: 100%;
+    height: 500vw;
+    overflow-y: hidden;
+    position: absolute;
+	width: 100vw;
+	z-index: 2;
 }

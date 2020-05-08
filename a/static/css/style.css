@@ -102,11 +102,13 @@ body{
 .menu{
 	background-size: cover;
 	position: absolute;
-	right: 0%;
+	right: 0.5%;
 	top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
 	font-family: Alternity;
-	font-size: larger;
-	width: 75.8%;
+	font-size: x-large;
+	width: 85vw;
 	z-index: 3;
 }
 
@@ -139,6 +141,18 @@ li a{
   
 li a:hover{
 	background-image: linear-gradient(to right ,#1a2a6c,#b21f1f,#fdbb2d);
+}
+
+.bg{
+    position: absolute;
+    top: -7%;
+    left: -0.8%;
+    z-index: 3;
+}
+
+.bg_img{
+    width: 101vw;
+    height: 507vh;
 }
 
 #scroll {
